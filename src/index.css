@@ -40,3 +40,8 @@
 .styled-underline:hover:after {
   transform: scaleX(1);
 }
+
+.PhoneInputInput {
+  font-family: 'gilroy-medium';
+  outline: none;
+}
