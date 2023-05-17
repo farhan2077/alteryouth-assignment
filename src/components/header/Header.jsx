@@ -94,7 +94,7 @@ function MobileMenu() {
           } h-screen w-screen bg-black absolute top-0 left-0`}
         ></div>
       )}
-      <div className="relative flex items-center justify-center w-full px-8 py-3 bg-white lg:hidden">
+      <div className="relative flex items-center justify-center w-full px-8 py-2 bg-white lg:hidden">
         <div className="absolute left-0 ml-4">
           <div ref={ref}>
             <Hamburger
@@ -177,14 +177,17 @@ function DesktopMenu() {
   console.log(yPos);
 
   let textColor = "text-white",
-    bgColor = "bg-transparent";
+    bgColor = "bg-transparent",
+    hamburgerColor = "#ffffff";
 
   if (yPos > 100) {
     textColor = "transition duration-300 transition-color text-brand";
     bgColor = "transition duration-300 transition-color bg-white shadow-md";
+    hamburgerColor = "#1dc468";
   } else {
     textColor = "transition duration-300 transition-color text-white";
     bgColor = "transition duration-300 transition-color bg-transparent";
+    hamburgerColor = "#ffffff";
   }
 
   const navItems = [
@@ -244,14 +247,14 @@ function DesktopMenu() {
                 zIndex: "0",
               }}
               direction="right"
-              color="#1dc468"
+              color={`${hamburgerColor}`}
               size={18}
               toggled={isOpen}
               toggle={setOpen}
             />
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 mb-1.5 scale-90"
+              className={`${textColor} h-10 mb-1.5 scale-90`}
               viewBox="0 0 42.49 9"
             >
               <g data-name="Group 6923">
@@ -259,7 +262,8 @@ function DesktopMenu() {
                   <g data-name="Logo Ay">
                     <g data-name="Layer 1">
                       <g
-                        fill="#1dc468"
+                        // fill="#1dc468"
+                        fill="currentColor"
                         fillRule="evenodd"
                         data-name="Group 2021"
                       >
@@ -280,7 +284,7 @@ function DesktopMenu() {
                   </g>
                 </g>
                 <text
-                  fill="#1dc468"
+                  fill="currentColor"
                   fontFamily="Gilroy-Bold, Gilroy ☞"
                   fontSize="7"
                   fontWeight="700"
