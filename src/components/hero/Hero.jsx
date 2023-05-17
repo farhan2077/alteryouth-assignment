@@ -6,14 +6,6 @@ import PhoneInput from "react-phone-number-input";
 import heroImg from "../../assets/images/hero.jpg";
 import pcheroImg from "../../assets/images/pchero.jpg";
 
-// function DesktopHero() {
-//   return (
-//     <>
-//       <div className="hidden">Desktop hero</div>
-//     </>
-//   );
-// }
-
 function DonationCard() {
   const [value, setValue] = useState();
   const [count, setCount] = useState(1);
@@ -157,13 +149,9 @@ function MobileHero() {
   );
 }
 
-export default function Hero() {
+function DesktopHero() {
   return (
     <>
-      <div className="lg:hidden">
-        <MobileHero />
-      </div>
-      {/* desktop hero */}
       <div>
         {/* hero background image */}
         <img
@@ -189,7 +177,19 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      {/* <DesktopHero /> */}
+    </>
+  );
+}
+
+export default function Hero() {
+  return (
+    <>
+      <div className="lg:hidden">
+        <MobileHero />
+      </div>
+      <div className="hidden mb-52 lg:block">
+        <DesktopHero />
+      </div>
     </>
   );
 }
