@@ -22,7 +22,7 @@ export default function About() {
           Here&lsquo;s how your scholarship works
         </h4>
         <div className="gap-10 mx-0 lg:mx-10 xl:grid xl:grid-cols-2 lg:mx-48">
-          <div className="relative mb-16 md:mb-10 xl:mb-14">
+          <div className="relative mb-16 -z-10 md:mb-10 xl:mb-14">
             <img
               src={videoFamilyImg}
               className="relative object-cover w-screen h-auto mt-0 overflow-hidden rounded-none sm:rounded-xl md:h-96 xl:mt-16 brightness-75 aspect-square"
@@ -74,7 +74,7 @@ export default function About() {
         </div>
       </div>
       <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+        <Dialog as="div" className="" onClose={closeModal}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
