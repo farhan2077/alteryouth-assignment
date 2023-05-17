@@ -1,9 +1,9 @@
 import { useState } from "react";
 import dayjs from "dayjs";
+import advancedFormat from "dayjs/plugin/advancedFormat";
+dayjs.extend(advancedFormat);
 
 import leaderboradData from "../assets/data/leaderboard.json";
-
-// dayjs.extend(LocalizedFormat);
 
 export default function Community() {
   const [count, setCount] = useState(6);
@@ -62,7 +62,7 @@ export default function Community() {
                       {person.count} Scholarships
                     </span>
                     <p className="text-[0.6rem] font-gilroy-medium text-gray-400">
-                      {dayjs(person.started_at).format("MMM D, YYYY")}
+                      {dayjs(person.started_at).format("Do MMM YYYY")}
                     </p>
                   </div>
                   <div>
