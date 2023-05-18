@@ -21,7 +21,7 @@ export default function About() {
         <h4 className="block px-6 mb-4 text-xl sm:text-2xl font-gilroy-bold xl:hidden">
           Here&lsquo;s how your scholarship works
         </h4>
-        <div className="gap-10 mx-0 lg:mx-10 xl:grid xl:grid-cols-2 lg:mx-48">
+        <div className="gap-10 mx-0 xl:grid xl:grid-cols-2 lg:mx-48">
           <div className="relative mb-16 -z-10 md:mb-10 xl:mb-14">
             <img
               src={videoFamilyImg}

@@ -8,6 +8,7 @@ import ScholarshipEligibility from "./components/ScholarshipEligibility";
 import MobileApp from "./components/mobile-app/MobileApp";
 import MoreInformation from "./components/MoreInformation";
 import Association from "./components/Association";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
       <MoreInformation />
       <div className="mb-5 mt-14 lg:mt-28"></div>
       <Association />
+      <div className="mb-5 mt-14 lg:mt-28"></div>
+      <Footer />
     </div>
   );
 }
