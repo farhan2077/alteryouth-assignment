@@ -6,6 +6,7 @@ import Community from "./components/Community";
 import Schools from "./components/carousel/Schools";
 import ScholarshipEligibility from "./components/ScholarshipEligibility";
 import MobileApp from "./components/mobile-app/MobileApp";
+import MoreInformation from "./components/MoreInformation";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
         <hr className="border border-gray-100 lg:hidden" />
       </div>
       <MobileApp />
+      <div className="mt-10 mb-5 lg:mt-20"></div>
+      <MoreInformation />
     </div>
   );
 }
