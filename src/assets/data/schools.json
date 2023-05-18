@@ -9,8 +9,7 @@
     "year_established": "1992",
     "total_students": "32",
     "total_teachers": "3",
-    "total_applicants": "6",
-    "img_url": "/school-images/school1.jpeg"
+    "total_applicants": "6"
   },
   {
     "name": "Kanchan Government Primary School",
@@ -22,8 +21,7 @@
     "year_established": "2001",
     "total_students": "41",
     "total_teachers": "5",
-    "total_applicants": "10",
-    "img_url": "/school-images/school2.jpeg"
+    "total_applicants": "10"
   },
   {
     "name": "Daudpur Government Primary School",
@@ -35,8 +33,7 @@
     "year_established": "1996",
     "total_students": "28",
     "total_teachers": "3",
-    "total_applicants": "9",
-    "img_url": "/school-images/school3.jpeg"
+    "total_applicants": "9"
   },
   {
     "name": "Kendua Government Primary School",
@@ -48,8 +45,7 @@
     "year_established": "1988",
     "total_students": "54",
     "total_teachers": "6",
-    "total_applicants": "13",
-    "img_url": "/school-images/school4.jpeg"
+    "total_applicants": "13"
   },
   {
     "name": "Bhulta Government Primary School",
@@ -61,8 +57,7 @@
     "year_established": "1985",
     "total_students": "45",
     "total_teachers": "3",
-    "total_applicants": "12",
-    "img_url": "/school-images/school5.jpeg"
+    "total_applicants": "12"
   },
   {
     "name": "Deboi Government Primary School",
@@ -74,8 +69,7 @@
     "year_established": "1992",
     "total_students": "24",
     "total_teachers": "2",
-    "total_applicants": "11",
-    "img_url": "/school-images/school6.jpeg"
+    "total_applicants": "11"
   },
   {
     "name": "Birabo Government Primary School",
@@ -87,7 +81,6 @@
     "year_established": "1992",
     "total_students": "18",
     "total_teachers": "2",
-    "total_applicants": "9",
-    "img_url": "/school-images/school7.jpeg"
+    "total_applicants": "9"
   }
 ]
