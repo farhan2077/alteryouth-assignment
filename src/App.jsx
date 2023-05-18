@@ -12,7 +12,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div id="home" className="min-h-screen overflow-y-hidden">
+    <div
+      id="home"
+      className="min-h-screen overflow-y-hidden selection:text-white selection:bg-brand"
+    >
       <div className="relative z-40">
         <Header />
       </div>
