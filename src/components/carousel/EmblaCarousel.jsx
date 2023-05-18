@@ -17,7 +17,8 @@ const EmblaCarousel = (props) => {
               <div key={school.name} className="embla__slide">
                 <img
                   className="rounded-md embla__slide__img"
-                  src={`/src/assets/images/school-images/school${school.ht_img_id}.jpeg`}
+                  // src={`/src/assets/images/school-images/school${school.ht_img_id}.jpeg`}
+                  src={school.img_url}
                 />
                 <div className="mx-1 mt-3">
                   <h6 className="font-gilroy-bold">{school.name}</h6>
