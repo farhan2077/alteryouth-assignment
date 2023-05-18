@@ -9,7 +9,7 @@
 
 ## Tasks
 
-- [x] (Landing page design of [AlterYouth](https://www.alteryouth.com/) website
+- [x] Landing page design of [AlterYouth](https://www.alteryouth.com/) website
 
 ## Prerequisites
 
