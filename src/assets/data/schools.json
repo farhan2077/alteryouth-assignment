@@ -10,7 +10,7 @@
     "total_students": "32",
     "total_teachers": "3",
     "total_applicants": "6",
-    "img_url": "/src/assets/images/school-images/school1.jpeg"
+    "img_url": "../../src/assets/images/school-images/school1.jpeg"
   },
   {
     "name": "Kanchan Government Primary School",
@@ -23,7 +23,7 @@
     "total_students": "41",
     "total_teachers": "5",
     "total_applicants": "10",
-    "img_url": "/src/assets/images/school-images/school1.jpeg"
+    "img_url": "../../src/assets/images/school-images/school1.jpeg"
   },
   {
     "name": "Daudpur Government Primary School",
@@ -36,7 +36,7 @@
     "total_students": "28",
     "total_teachers": "3",
     "total_applicants": "9",
-    "img_url": "/src/assets/images/school-images/school1.jpeg"
+    "img_url": "../../src/assets/images/school-images/school1.jpeg"
   },
   {
     "name": "Kendua Government Primary School",
@@ -49,7 +49,7 @@
     "total_students": "54",
     "total_teachers": "6",
     "total_applicants": "13",
-    "img_url": "/src/assets/images/school-images/school1.jpeg"
+    "img_url": "../../src/assets/images/school-images/school1.jpeg"
   },
   {
     "name": "Bhulta Government Primary School",
@@ -62,7 +62,7 @@
     "total_students": "45",
     "total_teachers": "3",
     "total_applicants": "12",
-    "img_url": "/src/assets/images/school-images/school1.jpeg"
+    "img_url": "../../src/assets/images/school-images/school1.jpeg"
   },
   {
     "name": "Deboi Government Primary School",
@@ -75,7 +75,7 @@
     "total_students": "24",
     "total_teachers": "2",
     "total_applicants": "11",
-    "img_url": "/src/assets/images/school-images/school1.jpeg"
+    "img_url": "../../src/assets/images/school-images/school1.jpeg"
   },
   {
     "name": "Birabo Government Primary School",
@@ -88,6 +88,6 @@
     "total_students": "18",
     "total_teachers": "2",
     "total_applicants": "9",
-    "img_url": "/src/assets/images/school-images/school1.jpeg"
+    "img_url": "../../src/assets/images/school-images/school1.jpeg"
   }
 ]
