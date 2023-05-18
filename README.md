@@ -1,12 +1,15 @@
 <div align="center">
 
-# [AlterYouth](https://www.alteryouth.com/) website design
+# [AlterYouth](https://www.alteryouth.com/) website _design_
 
-**Landing page design of [AlterYouth](https://www.alteryouth.com/) website as part of an assignment**
-
-[Live link](https://alteryouth-assignment.vercel.app/)
+[![Vercel](https://vercelbadge.vercel.app/api/farhan2077/alteryouth-assignment?style=flat-square)](https://alteryouth-assignment.vercel.app)
+[![Badge](https://img.shields.io/badge/Open%20in%20CodeSandbox-black?style=flat-square)](https://codesandbox.io/p/github/farhan2077/alteryouth-assignment/main)
 
 </div>
+
+## Tasks
+
+- [x] (Landing page design of [AlterYouth](https://www.alteryouth.com/) website
 
 ## Prerequisites
 
@@ -15,18 +18,28 @@
 
 ## Install & development
 
+1. Clone repository
+
 ```sh
-# Clone repository
 git clone https://github.com/farhan2077/alteryouth-assignment
+```
 
-# Change directory
+2. Change directory
+
+```sh
 cd alteryouth-assignment
+```
 
-# Install dependencies
+3. Install dependencies
+
+```sh
 npm install
+```
 
-# Start dev server
-npm start
+4. Start dev server
+
+```sh
+cd alteryouth-assignment
 ```
 
 Open `http://localhost:5173` in your browser.
