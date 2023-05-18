@@ -39,7 +39,7 @@ npm install
 4. Start dev server
 
 ```sh
-cd alteryouth-assignment
+npm run dev
 ```
 
 Open `http://localhost:5173` in your browser.
