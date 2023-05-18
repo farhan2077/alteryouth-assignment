@@ -45,3 +45,7 @@
   font-family: 'gilroy-medium';
   outline: none;
 }
+
+.shadow-subtle {
+  box-shadow: rgba(149, 157, 165, 0.3) 1px 4px 12px;
+}
