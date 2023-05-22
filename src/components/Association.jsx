@@ -32,7 +32,7 @@ export default function Association() {
             <div className="flex-1 order-1 pt-0 lg:pt-5 md:order-2">
               <div className="grid place-items-center">
                 <img src={googleIcon} className="h-16" />
-                <p className="font-gilroy-bold">
+                <p className="text-center font-gilroy-bold">
                   Winner of Google Business Group Stories
                 </p>
               </div>
